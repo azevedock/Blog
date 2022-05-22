@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.cabecalho {
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffcbdb; 
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px #c95a7b solid;
+}
+
+.cabecalho li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.cabecalho-item{
+    text-decoration: none;
+    color: #b62c84
+}
+
+.cabecalho-item:hover{
+    color: #dc5d83;
+}
+
+.cabecalho-item-ativo{
+    font-weight: bold;
+}
